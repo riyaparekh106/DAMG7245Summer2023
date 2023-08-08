@@ -20,6 +20,24 @@
       }
     },
     {
+			"expectation_type": "expect_column_values_to_be_unique",
+			"kwargs": {
+				"column": "post_id"
+			},
+			"meta": {
+				"profiler_details": {
+					"metric_configuration": {
+						"domain_kwargs": {
+							"column": "post_id"
+						},
+						"metric_name": "column_values.unique.unexpected_count",
+						"metric_value_kwargs": null
+					},
+					"num_batches": 1
+				}
+			}
+		},
+    {
       "expectation_type": "expect_table_columns_to_match_set",
       "kwargs": {
         "column_set": [
